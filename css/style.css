@@ -1,92 +1,56 @@
-
 body {
-    background-image: url('/image/SLFWebsite_BlackGrid.png');
-    background-repeat: repeat;
-  }
-.container {
-    margin: auto;
-}
-.container-nav {
-    background-color: rgb(160, 119, 58);
+    background-color: #08161e;
+    font-family: 'Courier New', Courier, monospace;
+	color: antiquewhite;
 }
 
-.text-first {
-    color: rgb(238, 203, 156);
-    text-align: center;
+.my_photo {
+	background: url(images.jpeg) no-repeat center center;
+	background-size:100%;
+	width: 187px;
+	height: 353px;
 }
-.text-second {
-    color: rgb(238, 203, 156);
-    text-align: center;
-    margin-top: 100px;
+
+.nav_logo {
+	background: url(logo.png) no-repeat center center;
+	background-size: 100%;
+	width: 74px;
+	height: 82px;
 }
-.col-12 {
-    color: rgb(238, 203, 156);
-    text-align: center;
-    margin-top: 150px;
+
+.nav_bar {
+	font-size: 30px;
+	font-weight: bold;
 }
-.col-8 {
-    color: rgb(238, 203, 156);
-    margin-top: 15%;
+
+.nav_text {
+	display: flex;
+	align-items: center;
+	justify-content: right;
 }
-.header {
-    margin-top: 150px;
+
+.container {
+	margin-top: 30px;
 }
-.logo {
-    background-image: url('/image/icons8-sass.svg');
-    width: 100px;
-    height: 100px;
-    margin-left: 10px;
+
+.title_photo {
+	text-align: center;
 }
-.img1 {
-    background-image: url('/image/photo_2024-03-02_23-28-53.jpg');
-    background-size: 100%;
-    width: 430px;
-    height: 430px;
-}
-.img2 {
-    background-image: url('/image/photo_2024-01-24_23-39-14.jpg');
-    background-size: 100%;
-    width: 510px;
-    height: 630px;
-    margin-left: 10px;
-}
-.opt {
-    margin-top: 100px;
-}
-.title-photo{
-    color: rgb(238, 203, 156);
-    text-align: center;
-}
-.title-photo2{
-    color: rgb(238, 203, 156);
-    margin-left: 210px;
-}
-.col-5 {
-    color: rgb(238, 203, 156);
-    margin-left: 24%;
-    margin-top: 50px;
-}
-.col-6 {
-    color: rgb(238, 203, 156);
-    text-align: center;
-    margin-left: 50%;
-    margin-top: 100px;
-}
-.col-9{
-    width: 34%;
-    text-align: center;
-    margin-top: 300px;
-    color: rgb(238, 203, 156);
-}
-.btn_red{
-    border: none;
-    background-color: rgb(212, 134, 206);
+
+.button_js {
+	text-align: center;
 }
 
 #myButton {
-    border: none;
-    background-color: rgb(212, 134, 206);
+	border: none;
+	border-radius: 15px;
+	width: 150px;
+	height: 50px;
+	background-color: #a30f0f;
+	color: #fff;
+	font-weight: bold;
 }
-#demo {
-    margin-top: 10px;
+#demo img {
+	margin-top: 20px;
+	width: 25%;
 }
